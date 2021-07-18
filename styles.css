@@ -1,0 +1,159 @@
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  font-size: 3.5rem;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+  text-align: center;
+}
+.image{
+  height: 900%;
+  width:900%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+}
+h1{
+
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+h2{
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-size: 3rem;
+line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+
+
+}
+
+.iphone6{
+  position: absolute;
+  transform: rotate(20deg);
+  z-index: 0;
+  width:20%;
+
+
+}
+.navbar {
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1.5rem;
+    padding:0  0 4.5rem;
+
+  }
+  .navbar-brand{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 3rem;
+  }
+  .nav-item{
+    padding: 0 18px;
+  }
+  .but1{
+    margin:5% 3% 5% 0%;
+  }
+  .but2{
+      margin:5% 3% 5% 0%;
+  }
+  #features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index:1;
+
+  }
+  .box{
+    text-aligned: center;
+    padding: 5%;
+  }
+  .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  .icon:hover{
+    color:#ff4c68;
+  }
+  #testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+
+  }
+  #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  .img1{
+    width:10%;
+    border-radius: 100%;
+  }
+  .images1{
+    width:15%;
+    margin:20px 50px;
+
+
+  }
+  #cta{
+    text-align: center;
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-size: 3.5rem;
+
+    background-color: #ff4c68;
+  padding-top: 3%;
+    color:#fff;
+  }
+  @media(max-width:1028px)
+  {
+    .navbar {
+        font-family: "Ubuntu",sans-serif;
+        font-size: 1.5rem;
+        padding:0  0 2rem;
+
+      }
+    #title{
+      text-align: center;
+    }
+    .iphone6{
+      position:static;
+      left:100px;
+        transform: rotate(0deg);
+        width:60%;
+
+    }
+    h1{
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+    .things{
+      text-align: center;
+    }
+
+  }
+  #footer{
+    text-align: center;
+  }
+  .social-icon{
+    margin: 20px 10px;
+  }
